@@ -224,4 +224,10 @@ module tb_alu_bist_top;
         $finish;
     end
 
+    final begin
+    $display("Hint: Total mismatched samples is %1d out of %1d samples", errors, clocks);
+    $display("Simulation finished at %0d ps", $time);
+    $display("Mismatches: %1d in %1d samples", errors, clocks);
+  end
+
 endmodule
