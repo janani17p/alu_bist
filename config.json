@@ -1,13 +1,13 @@
 {
 	"general": {
         "prompt": "./alu_bist.sv",
-        "name": "alu",
+        "name": "top_module",
         "testbench": "./alu_bist.sv",
 		"model_family": "ChatGPT",
 		"model_id": "gpt-4o-mini",
-		"num_candidates": 5,
-		"iterations": 5,
-        "outdir": "outputs_7420",
+		"num_candidates": 1,
+		"iterations": 1,
+        "outdir": "outputs_alu_bist",
         "log": "log.txt",
 		"ensemble": false
     }
